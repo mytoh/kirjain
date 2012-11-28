@@ -1,0 +1,8 @@
+
+(spec
+  (name "kirjain")
+  (description "debug with one character")
+  (homepage "http://github.com/mytoh/kirjain")
+  (files ("lib/kirjain.sls"
+          "kirjain.lehspec"
+          )))
