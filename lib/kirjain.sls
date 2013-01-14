@@ -3,7 +3,7 @@
   (export
     b f  o t)
   (import
-    (rnrs)
+    (silta base)
     (srfi :19))
 
   (begin
