@@ -4,6 +4,7 @@
     b f  o t)
   (import
     (silta base)
+    (silta write)
     (srfi :19))
 
   (begin
@@ -31,7 +32,7 @@
       (write (date->string (current-date)))
       (newline)
       x)
-; 
+;
 ;     (define (l x)
 ;       (log-open #t)
 ;       (log-format "~s" x)
