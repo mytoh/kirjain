@@ -5,6 +5,7 @@
   (import
     (silta base)
     (silta write)
+    (silta file)
     (srfi :19))
 
   (begin
